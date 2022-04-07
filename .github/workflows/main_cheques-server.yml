@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'cheques-server'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3194B08751DC442792E23A307DB97592 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D8CDA19E60C449F38B6D681F7F09A999 }}
           package: .
