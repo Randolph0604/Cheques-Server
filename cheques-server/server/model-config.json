@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "concepto": {
+    "dataSource": "SQLServerContinuo",
+    "public": true
+  },
+  "proveedor": {
+    "dataSource": "SQLServerContinuo",
+    "public": true
+  },
+  "solicitud": {
+    "dataSource": "SQLServerContinuo",
+    "public": true
+  },
+  "usuario": {
+    "dataSource": "SQLServerContinuo",
+    "public": true
+  },
+  "asiento": {
+    "dataSource": "SQLServerContinuo",
+    "public": true
+  }
+}

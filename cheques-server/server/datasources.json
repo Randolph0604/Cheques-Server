@@ -1,0 +1,11 @@
+{
+  "SQLServerContinuo": {
+    "host": "chequesdb.database.windows.net",
+    "port": 1433,
+    "database": "cheques",
+    "password": "@OpenSource",
+    "name": "SQLServerContinuo",
+    "user": "chequessa",
+    "connector": "mssql"
+  }
+}
